@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .table-container {
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .table {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .thead-dark {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn i {
+    margin-right: 5px;
+  }
+  

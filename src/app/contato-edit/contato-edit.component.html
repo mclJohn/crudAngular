@@ -1,0 +1,27 @@
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card shadow-lg p-4 rounded-4" style="max-width: 500px; width: 100%;">
+      <h3 class="text-center mb-4">Cadastro</h3>
+      
+      <form action="javascript:" [ngClass]="class_validate" [formGroup]="form_dados">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome</label>
+          <input type="text" class="form-control rounded-3" id="nome" formControlName="nome" required placeholder="Digite seu nome">
+        </div>
+  
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail</label>
+          <input type="email" class="form-control rounded-3" id="email" formControlName="email" required placeholder="Digite seu e-mail">
+        </div>
+  
+        <div class="mb-3">
+          <label for="telefone" class="form-label">Telefone</label>
+          <input type="text" class="form-control rounded-3" id="telefone" formControlName="telefone" required placeholder="Digite seu telefone">
+        </div>
+  
+        <div class="d-grid">
+          <button class="btn btn-primary rounded-3 fw-bold" type="submit" (click)="salvar()">Salvar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  

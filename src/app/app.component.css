@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+  }
+  
+  /* Estilização da Navbar */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Centralização do Conteúdo */
+  .container {
+    text-align: center;
+  }
+  
+  .content {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
